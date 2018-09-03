@@ -1,0 +1,45 @@
+header {
+  /* height: 45px; */
+  background-color: lightskyblue;
+  /* padding: 10px; */
+  display: flex;
+  /* position: fixed;
+  top: 0px; */
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+div#titlegroup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:lime;
+  flex:1;
+  margin:0px 20px 0px 20px;
+  padding:10px;
+  font-weight:bold;
+}
+
+header>#login_group {
+    margin:0px 20px 0px 20px;
+    background-color:lightcoral;
+    padding:10px;
+}
+
+div#titlegroup>span#title {
+  letter-spacing: 3px;
+}
+
+div.popholder{
+    position: fixed;
+    /* top:0px; */
+    display:none;
+    height:auto;
+    width:100%;
+    background-color: rgba(0,0,0,0.6);
+    padding:40px;
+    margin:0 auto;
+    overflow-y: auto;
+}

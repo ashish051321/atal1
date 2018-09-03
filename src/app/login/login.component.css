@@ -1,0 +1,121 @@
+
+.fullheightcolumn{
+    height:100vh;
+}
+
+.torq{
+    background-color: rgb(26, 188, 156);
+}
+
+.emerald{
+    background: rgb(46, 204, 113);
+}
+
+.sunflower{
+    background: rgb(241, 196, 15);
+}
+
+.carrot{
+    background: rgb(230, 126, 34);
+}
+
+.concrete{
+    background: rgb(149, 165, 166);
+}
+
+.midblue{
+    background: rgb(44, 62, 80);
+}
+
+.river{
+    background: rgb(52, 152, 219);
+}
+
+
+.pumpkin{
+    background: rgb(211, 84, 0);
+}
+
+.height40{
+height: 40px;
+}
+
+
+.height80{
+height: 80px;
+}
+
+/*Styling on top of page level styling:-*/
+
+#companytagline{
+   margin-top:100px;
+   text-align: justify;
+}
+
+/*Login form styling*/
+
+#LoginandSignup{
+color:black;
+/* padding-top:10px;
+padding-bottom:10px; */
+overflow-y: auto;
+background-color:whitesmoke;
+}
+
+#LoginandSignup > .signInWithEmail
+{
+    margin-top: 80px;   
+    margin-bottom: 80px;   
+}
+
+.signInSocial{
+    margin-top:20px;
+}
+
+/*Footer Styling*/
+
+.mainfooter{
+    padding-top:20px;
+}
+
+/*Social Media Icons Styling*/
+
+.list-inline {
+    list-style: outside none none;
+    display:flex;
+    justify-content: space-around;
+}
+
+.list-inline > li {
+    display: block;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.social {
+  background: url('http://arunendapally.com/themes/CustomTheme/ss.png');
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+
+.facebook {
+  background-position: -0px -0px;
+}
+
+.linkedin {
+  background-position: -0px -42px;
+}
+
+.twitter {
+  background-position: -0px -84px;
+}
+
+.googleplus {
+  background-position: -0px -126px;
+}
+
+.socialLoginList{
+
+}
