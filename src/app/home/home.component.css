@@ -1,6 +1,6 @@
 header {
   /* height: 45px; */
-  background-color: lightskyblue;
+  background-color: #FFEE33;
   /* padding: 10px; */
   display: flex;
   /* position: fixed;
@@ -9,23 +9,31 @@ header {
   justify-content: flex-end;
   align-items: center;
   font-family: sans-serif;
+  padding-top:5px;
+  padding-bottom:5px;
 }
 
 div#titlegroup {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color:lime;
+  /* background-color:lime; */
   flex:1;
   margin:0px 20px 0px 20px;
   padding:10px;
   font-weight:bold;
+  font-family: 'Orbitron', 'sans-serif';
+  
 }
 
 header>#login_group {
     margin:0px 20px 0px 20px;
-    background-color:lightcoral;
-    padding:10px;
+    /* background-color:lightcoral; */
+    padding:5px;
+    border-radius:5px;
+    background-color: #1189F3;
+    color: white;
+    font-family: 'Orbitron', 'sans-serif';
 }
 
 div#titlegroup>span#title {
@@ -42,4 +50,8 @@ div.popholder{
     padding:40px;
     margin:0 auto;
     overflow-y: auto;
+}
+
+span#login_button{
+  cursor: pointer;
 }
